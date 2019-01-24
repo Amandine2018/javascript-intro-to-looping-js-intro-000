@@ -6,3 +6,12 @@ for (let i = 1; i < 26; i++) {
     array.push(`I am ${i} strange loops.`)
   }
 }
+
+
+function whileLoop(num) {
+  while (num >= 0) {
+    console.log(num);
+    num-= 1;
+  }
+  return "done"
+}
