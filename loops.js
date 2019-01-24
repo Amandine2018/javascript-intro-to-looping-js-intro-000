@@ -9,9 +9,9 @@ for (let i = 1; i < 26; i++) {
 
 
 function whileLoop(num) {
-  while (num >= 0) {
+  while (num > 0) {
     console.log(num);
-    num-= 1;
+    num -= 1;
   }
   return "done"
 }
